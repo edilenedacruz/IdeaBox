@@ -25,6 +25,6 @@ RSpec.describe "User can create account" do
     fill_in "Password confirmation", with: "password"
     click_on "Create"
 
-    expect(page).to have_content("Welcome")
+    expect(page).to have_content("Welcome, Super")
   end
 end
